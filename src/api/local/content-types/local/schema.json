@@ -25,6 +25,21 @@
       "type": "string",
       "required": true,
       "unique": true
+    },
+    "teste": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     }
   }
 }
